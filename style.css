@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    min-height: 100vh;
+    min-width: 97vw;
+    /* background-color: #070724; */
+    background-image: url(./assets/background-stars.svg);
+}
+
+header{
+    width: 100%;
+}
+.menu-navegacao {
+    height: 65px;
+    width: 96%;
+    
+}
+
+.menu-navegacao > ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0 20px; 
+    
+}
+
+.menu-navegacao a {
+    color: rgb(0, 0, 0);
+    font-family: 'League Spartan';
+    font-size: 12px;
+    padding: 0 1rem;
+    display: inline-flex;
+    height: 100%;
+    text-decoration: none;
+}
+
+.menu-navegacao li:first-child a{
+    padding-right: 490px;
+    font-family: 'Antonio';
+    font-size: 30px;
+}
+ 
+.image{
+    height: 200px;
+}
+
+.sec1{
+    display: flex;
+    justify-content: flex-end;
+}

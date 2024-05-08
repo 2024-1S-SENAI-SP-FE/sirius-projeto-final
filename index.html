@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Planets fact site</title>
@@ -11,9 +13,9 @@
 <body>
 
   <header>
-    <nav>
+    <nav class="menu-navegacao">
       <ul>
-        <li>THE PLANETS</li>
+        <li><a href="#">THE PLANETS</a></li>
         <li><a href="#">MERCURY</a></li>
         <li><a href="#">VENUS</a></li>
         <li><a href="#">EARTH</a></li>
@@ -26,11 +28,12 @@
     </nav>
   </header>
   <main>
-    <img src="assets/planet-earth.svg" alt="">
     <article>
+    <section class="image">
+      <img src="assets/planet-earth.svg" alt="">
+    </section>
       <h1>EARTH</h1>
-
-      <section>
+      <section class="sec1">
         <p>Third planet from the Sun and the only known planet to harbor life. 
           About 29.2% of Earth's surface is land with remaining 70.8% is 
           covered with water. Earth's distance from the Sun, physical properties 
@@ -39,14 +42,11 @@
         <p> Source : <a href="https://en.wikipedia.org/wiki/Earth">Wikipedia</a></p>
       </section>
 
-      <div>
-        <ol>
-
+      <section>
           <button type="button">01 OVERVIEW</button>
           <button type="button">02 INTERNAL STRUCTURE</button>
           <button type="button">03 SURFACE GEOLOGY</button>
-        </ol>
-      </div>
+      </section>
     </article>
     
   </main>
