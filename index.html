@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="/planets.js"></script>
   
   <title>Frontend Mentor | Planets fact site</title>
 </head>
@@ -15,7 +16,7 @@
       <ul>
         <li>THE PLANETS</li>
         <li><a href="#">MERCURY</a></li>
-        <li><a href="#">VENUS</a></li>
+        <li><a href="#" onclick="Venus(event)">VENUS</a></li>
         <li><a href="#">EARTH</a></li>
         <li><a href="#">MARS</a></li>
         <li><a href="#">JUPITER</a></li>
@@ -25,18 +26,16 @@
       </ul>
     </nav>
   </header>
+
   <main>
-    <img src="assets/planet-earth.svg" alt="">
+    <img id="img-planets" alt="">
     <article>
       <h1>EARTH</h1>
 
       <section>
-        <p>Third planet from the Sun and the only known planet to harbor life. 
-          About 29.2% of Earth's surface is land with remaining 70.8% is 
-          covered with water. Earth's distance from the Sun, physical properties 
-          and geological history have allowed life to evolve and thrive.</p>
+        <p id="text-planets"></p>
   
-        <p> Source : <a href="https://en.wikipedia.org/wiki/Earth">Wikipedia</a></p>
+        <p> Source : <a id="source-planets" >Wikipedia</a></p>
       </section>
 
       <div>
