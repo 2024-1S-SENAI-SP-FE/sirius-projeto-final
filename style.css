@@ -4,7 +4,7 @@
 body {
     min-height: 100vh;
     min-width: 97vw;
-    /* background-color: #070724; */
+    background-color: #070724;
     background-image: url(./assets/background-stars.svg);
 }
 
@@ -28,7 +28,7 @@ header{
 }
 
 .menu-navegacao a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'League Spartan';
     font-size: 12px;
     padding: 0 1rem;
@@ -42,12 +42,95 @@ header{
     font-family: 'Antonio';
     font-size: 30px;
 }
- 
-.image{
-    height: 200px;
+
+.pai{
+    /* border: solid red; */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.sec-image{
+    display: flex;
+    justify-content: center;
+    height: 340px;
+    margin-left: 220px;
+}
+
+
+.sec{
+    display:flex;
+    flex-direction: column;
+    /* align-items: end; */
+    padding: 20px;
+    width: 22%;
+    /* border: solid green; */
+   margin-right: 140px;
 }
 
 .sec1{
+    
+    /* border: solid black; */
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.sec1 h1{
+    font-family: 'Antonio';
+    font-size: 80px;
+    color: white;
+}
+
+.sec1 p{
+    font-family: 'League Spartan';
+    font-size: 14px;
+    color: white;
+}
+
+.sec1 p:last-child{
+    color: #838391;
+}
+
+.sec p>a{
+    color: #838391;
+}
+
+.buttons > button{
+    display: flex;
+    /* flex-direction: column; */
+    font-family: 'League spartan';
+    font-size: 12px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    /* background-color: #070724; */
+    color: white;
+    border:solid #838391;
+
+}
+
+.buttons > button:hover:not(:focus) {
+    cursor:pointer;
+    box-shadow: inset 300px 0 0 #38384f;
+}
+
+.buttons > button{
+    background: none;
+}
+
+.buttons > button:focus {
+    background: #419ebb;
+}
+
+.buttons button>span{
+    color: #838391;
+}
+
+
