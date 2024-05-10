@@ -17,6 +17,10 @@ header{
     
 }
 
+main{
+    height: 60%;
+}
+
 .hr{
     border-color: #38384f;
 }
@@ -55,6 +59,8 @@ header{
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 8px;
+    height: 100%;
+
 }
 
 .sec-image{
@@ -62,6 +68,15 @@ header{
     justify-content: center;
     height: 340px;
     margin-left: 220px;
+}
+
+.sec-image img:last-child{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 235px;
+    height: 140px;
 }
 
 
