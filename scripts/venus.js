@@ -5,12 +5,12 @@ const Venus = (event) => {
     
     window.alert()
     
-    const textPlanets = document.getElementById("text-planets")
+    const textPlanets = document.getElementById("texto-planetas")
     textPlanets.innerText = `Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.`
     
-    document.getElementById("source-planets").setAttribute("href", "https://en.wikipedia.org/wiki/Venus")
+    document.getElementById("source-planetas").setAttribute("href", "https://en.wikipedia.org/wiki/Venus")
     
-    document.getElementById('img-planets').src = "assets/planet-venus.svg"
+    document.getElementById('img-planetas').src = "assets/planet-venus.svg"
 
     
 }
@@ -32,7 +32,7 @@ const INTERNAL_STRUCTURE = (event) =>{
     
     document.getElementById("source-planets").setAttribute("href", "https://en.wikipedia.org/wiki/Venus#Internal_structure")
     
-    document.getElementById('img-planets').src = "assets/planet-venus-internal.svg"
+    document.getElementById('img-planetas').src = "assets/planet-venus-internal.svg"
 }
 
 
