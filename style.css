@@ -11,15 +11,14 @@ body {
 header{
     width: 100%;
 }
-
-main{
-    height: 65vh;
-}
-
 .menu-navegacao {
     height: 65px;
     width: 96%;
     
+}
+
+.hr{
+    border-color: #38384f;
 }
 
 .menu-navegacao > ul {
@@ -55,8 +54,7 @@ main{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 40px;
-    height: 100%;
+    margin-top: 8px;
 }
 
 .sec-image{
@@ -78,7 +76,6 @@ main{
 }
 
 .sec1{
-    
     /* border: solid black; */
     display: flex;
     flex-direction: column;
@@ -95,6 +92,17 @@ main{
     font-family: 'League Spartan';
     font-size: 14px;
     color: white;
+    line-height: 1.3em;
+}
+
+.source{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    padding: 5px;
 }
 
 .sec1 p:last-child{
@@ -129,6 +137,9 @@ main{
 
 .buttons > button{
     background: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .buttons > button:focus {
@@ -137,4 +148,52 @@ main{
 
 .buttons button>span{
     color: #838391;
+    margin-inline-start: 20px ;
+}
+
+.pai2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* justify-content: space-between; */
+    margin: 120px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.pai2 h4{
+    font-family: 'League Spartan';
+    font-size: 11px;
+    color: #838391;
+}
+
+.pai2 h1{
+    font-family: 'Antonio';
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.sec1-footer{
+    border: solid #38384f;
+    padding: 20px;
+    width: 170px;
+}
+
+.sec2-footer{
+    border:solid #38384f;
+    padding: 20px;
+    width: 170px;
+}
+
+.sec3-footer{
+    border: solid #38384f;
+    padding: 20px ;
+    width: 170px;
+}
+
+.sec4-footer{
+    border: solid #38384f;
+    padding: 20px;
+    width: 170px;
 }
