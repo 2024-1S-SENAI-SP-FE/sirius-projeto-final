@@ -11,6 +11,11 @@ body {
 header{
     width: 100%;
 }
+
+main{
+    height: 65vh;
+}
+
 .menu-navegacao {
     height: 65px;
     width: 96%;
@@ -50,7 +55,8 @@ header{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 75px;
+    margin-top: 40px;
+    height: 100%;
 }
 
 .sec-image{
@@ -132,5 +138,3 @@ header{
 .buttons button>span{
     color: #838391;
 }
-
-
