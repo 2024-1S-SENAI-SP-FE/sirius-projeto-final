@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="/scripts/venus.js"></script>
+
+  <title>Frontend Mentor | Planets fact site</title>
+</head>
+<body>
+
+  <header>
+    <nav class="menu-navegacao">
+      <ul>
+        <li><a href="#">THE PLANETS</a></li>
+        <li><a href="#">MERCURY</a></li>
+        <li><a href="#" onclick="Venus(event)" >VENUS</a></li>
+        <li><a href="#">EARTH</a></li>
+        <li><a href="#">MARS</a></li>
+        <li><a href="#">JUPITER</a></li>
+        <li><a href="#">SATURN</a></li>
+        <li><a href="#">URANUS</a></li>
+        <li><a href="#">NEPTUNE</a></li>
+      </ul>
+    </nav>
+    <hr class="hr">
+  </header>
+  <main>
+    <article class="pai">
+      <section class="sec-image">
+        <img src="" id="img-planetas" alt="">
+      </section>
+
+
+      <section class="sec">
+        <section class="sec1">
+            <h1 >VENUS</h1>
+    
+            <p id="texto-planetas">Third planet from the Sun and the only known planet to harbor life. 
+              About 29.2% of Earth's surface is land with remaining 70.8% is 
+              covered with water. Earth's distance from the Sun, physical properties 
+              and geological history have allowed life to evolve and thrive.</p>
+              
+              <section class="source">
+                <p> Source : <a href="https://en.wikipedia.org/wiki/Earth" id="source-planetas">Wikipedia</a></p>
+                <img src="/assets/icon-source.svg" alt="" class="icon">
+              </section>
+            </section>
+    
+          <section class="buttons">
+              <button type="button" onclick="INTERNAL_STRUCTURE(event)"><span>01</span> OVERVIEW</button>
+              <button type="button"><span>02</span> INTERNAL STRUCTURE</button>
+              <button type="button"><span>03</span> SURFACE GEOLOGY</button>
+          </section>
+        </section>
+    </article>
+  </main>
+
+  <footer>
+    <article class="pai2">
+    <section class="sec1-footer">
+      <h4>
+        ROTATION TIME
+      </h4>
+      <h1>
+        0.99 DAYS
+      </h1>
+    </section>
+
+    <section class="sec2-footer">
+      <h4>
+        REVOLUTION TIME
+      </h4>
+      <h1>
+        365.26 DAYS
+      </h1>
+    </section>
+
+    <section class="sec3-footer">
+      <h4>
+        RADIUS
+      </h4>
+      <h1>
+        6,371 KM
+      </h1>
+    </section>
+
+    <section class="sec4-footer">
+      <h4>
+        AVERAGE TEMP.
+      </h4>
+      <h1>   
+        16°C
+      </h1>
+    </section>
+  </article>
+  </footer>
+</body>
+</html>
