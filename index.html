@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <script src="/planets.js"></script>
+  <script src="/scripts/venus.js"></script>
   
   <title>Frontend Mentor | Planets fact site</title>
 </head>
@@ -21,16 +21,20 @@
         <li><a href="#">MARS</a></li>
         <li><a href="#">JUPITER</a></li>
         <li><a href="#">SATURN</a></li>
-        <li><a href="#">URANUS</a></li>
+        <li><a href="#" onclick="Uranus(event)">URANUS</a></li>
         <li><a href="#">NEPTUNE</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <img id="img-planets" alt="">
+    <section>
+
+      <img id="img-planets" alt="">
+      <img id="img-geology" alt="">
+    </section>
     <article>
-      <h1>EARTH</h1>
+      <h1 id="img-title">EARTH</h1>
 
       <section>
         <p id="text-planets"></p>
@@ -41,9 +45,9 @@
       <div>
         <ol>
 
-          <button type="button"><p>01</p>OVERVIEW</button>
-          <button type="button">02 INTERNAL STRUCTURE</button>
-          <button type="button">03 SURFACE GEOLOGY</button>
+          <button type="button" onclick="Venus(event)"><span>01</span>OVERVIEW</button>
+          <button type="button" onclick="INTERNAL_STRUCTURE(event)">02 INTERNAL STRUCTURE</button>
+          <button type="button" onclick="SURFACE_GEOLOGY(event)">03 SURFACE GEOLOGY</button>
         </ol>
       </div>
     </article>
