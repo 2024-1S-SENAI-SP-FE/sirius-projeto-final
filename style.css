@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap');
 
-body {
+/* body {
     min-height: 100vh;
     min-width: 97vw;
     background-color: #070724;
     background-image: url(./assets/background-stars.svg);
-}
+} */
+
+/* Gabriel - adicionei max-width: 1340px; e margin: 0 auto; */
+
+body {
+    max-width: 1340px;
+    margin: 0 auto;
+    min-height: 100vh;
+    min-width: 97vw;
+    background-color: #070724;
+    background-image: url(./assets/background-stars.svg);
+} 
 
 header{
     width: 100%;
@@ -64,6 +75,15 @@ header{
     margin-left: 220px;
 }
 
+.sec-image img:last-child{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 235px;
+    /* margin-top: 250px; */
+    height: 140px;
+}
 
 .sec{
     display:flex;
@@ -143,7 +163,7 @@ header{
 }
 
 .buttons > button:focus {
-    background: #419ebb;
+    background: #EDA249;
 }
 
 .buttons button>span{
@@ -151,14 +171,20 @@ header{
     margin-inline-start: 20px ;
 }
 
+/* Gabriel - mudei de justify content center para end */
+/* Gabriel - adicionei margin right de 156px */
+
 .pai2{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    /* justify-content: center; */
     gap: 25px;
     /* justify-content: space-between; */
     margin: 120px;
     margin-top: 30px;
+    margin-right: 156px;
+
     color: #ffffff;
 }
 
