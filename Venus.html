@@ -11,15 +11,15 @@
 
   <title>Frontend Mentor | Planets fact site</title>
 </head>
-<body>
+<body class="body-container">
 
   <header>
     <nav class="menu-navegacao">
       <ul>
         <li><a href="#">THE PLANETS</a></li>
-        <li><a href="#">MERCURY</a></li>
-        <li><a href="#" onclick="Venus(event)" >VENUS</a></li>
-        <li><a href="#">EARTH</a></li>
+        <li><a href="/mercury.html">MERCURY</a></li>
+        <li><a href="/venus.html" >VENUS</a></li>
+        <li><a href="/index.html">EARTH</a></li>
         <li><a href="#">MARS</a></li>
         <li><a href="#">JUPITER</a></li>
         <li><a href="#">SATURN</a></li>
@@ -32,7 +32,8 @@
   <main>
     <article class="pai">
       <section class="sec-image">
-        <img src="" id="img-planetas" alt="">
+        <img src="/assets/planet-venus.svg" id="img-planetas" alt="">
+        <img id="img-geology" src="" alt="">
       </section>
 
 
@@ -52,9 +53,9 @@
             </section>
     
           <section class="buttons">
-              <button type="button" onclick="INTERNAL_STRUCTURE(event)"><span>01</span> OVERVIEW</button>
-              <button type="button"><span>02</span> INTERNAL STRUCTURE</button>
-              <button type="button"><span>03</span> SURFACE GEOLOGY</button>
+              <button type="button" onclick="VenusOverview(event)"><span>01</span> OVERVIEW</button>
+              <button type="button" onclick="VenusInternalStructure(event)"><span>02</span> INTERNAL STRUCTURE</button>
+              <button type="button" onclick="VenusSurfaceGeology(event)"><span>03</span> SURFACE GEOLOGY</button>
           </section>
         </section>
     </article>
@@ -67,7 +68,7 @@
         ROTATION TIME
       </h4>
       <h1>
-        0.99 DAYS
+        243 DAYS
       </h1>
     </section>
 
@@ -76,7 +77,7 @@
         REVOLUTION TIME
       </h4>
       <h1>
-        365.26 DAYS
+        224.7 DAYS
       </h1>
     </section>
 
@@ -85,7 +86,7 @@
         RADIUS
       </h4>
       <h1>
-        6,371 KM
+        6,051.8 KM
       </h1>
     </section>
 
@@ -94,7 +95,7 @@
         AVERAGE TEMP.
       </h4>
       <h1>   
-        16°C
+        471°C
       </h1>
     </section>
   </article>
