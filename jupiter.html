@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="script/jupiter.js"></script>
+  
+  <title>Frontend Mentor | Planets fact site</title>
+</head>
+<body>
+
+  <header>
+    <nav class="menu-navegacao">
+      <ul>
+        <li><a href="#">THE PLANETS</a></li>
+        <li><a href="mercury.html">MERCURY</a></li>
+        <li><a href="venus.html">VENUS</a></li>
+        <li><a href="index.html">EARTH</a></li>
+        <li><a href="mars.html">MARS</a></li>
+        <li><a href="jupiter.html">JUPITER</a></li>
+        <li><a href="saturn.html">SATURN</a></li>
+        <li><a href="uranus.html">URANUS</a></li>
+        <li><a href="neptune.html">NEPTUNE</a></li>
+      </ul>
+    </nav>
+    <hr class="hr">
+  </header>
+  <main>
+    <article class="pai">
+      <section class="sec-image">
+        <img src="assets/planet-jupiter.svg" id="img-planetas" alt="">
+        <img id="img-geology" alt="">
+      </section>
+
+
+      <section class="sec">
+        <section class="sec1">
+            <h1>JUPITER</h1>
+    
+            <p id="texto-planetas">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.</p>
+              
+              <section class="source">
+                <p> Source : <a href="https://en.wikipedia.org/wiki/Jupiter" id="source-planetas">Wikipedia</a></p>
+                <img src="/assets/icon-source.svg" alt="" class="icon">
+              </section>
+            </section>
+    
+          <section class="buttons">
+              <button type="button" onclick="JupiterOverview(event)"><span>01</span> OVERVIEW</button>
+              <button type="button" onclick="JupiterInternalStructure(event)"><span>02</span> INTERNAL STRUCTURE</button>
+              <button type="button" onclick="JupiterSurfaceGeology(event)"><span>03</span> SURFACE GEOLOGY</button>
+          </section>
+        </section>
+    </article>
+  </main>
+
+  <footer>
+    <article class="pai2">
+    <section class="sec1-footer">
+      <h4>
+        ROTATION TIME
+      </h4>
+      <h1>
+        9.93 HOURS
+      </h1>
+    </section>
+
+    <section class="sec2-footer">
+      <h4>
+        REVOLUTION TIME
+      </h4>
+      <h1>
+        11.86 YEARS
+      </h1>
+    </section>
+
+    <section class="sec3-footer">
+      <h4>
+        RADIUS
+      </h4>
+      <h1>
+        69,911 KM
+      </h1>
+    </section>
+
+    <section class="sec4-footer">
+      <h4>
+        AVERAGE TEMP.
+      </h4>
+      <h1>   
+        -108°C
+      </h1>
+    </section>
+  </article>
+  </footer>
+</body>
+</html>
