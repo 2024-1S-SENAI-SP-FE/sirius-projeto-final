@@ -18,7 +18,7 @@ const UranusInternalStructure = (event) => {
     const textPlanets = document.getElementById('texto-planetas')
     textPlanets.innerText = `The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses.`
 
-    document.getElementById('source-planetas').setAttribute('href', 'https://en.wikipedia.org/wiki/Uranus')
+    document.getElementById('source-planetas').setAttribute('href', 'https://en.wikipedia.org/wiki/Uranus#Internal_structure')
 
     document.getElementById('img-planetas').src = "assets/planet-uranus-internal.svg"
 
@@ -31,7 +31,7 @@ const UranusSurfaceGeology = (event) => {
     const textPlanets = document.getElementById('texto-planetas')
     textPlanets.innerText = `The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.`
 
-    document.getElementById('source-planetas').setAttribute('href', 'https://en.wikipedia.org/wiki/Uranus')
+    document.getElementById('source-planetas').setAttribute('href', 'https://en.wikipedia.org/wiki/Uranus#Surface_geology')
 
     document.getElementById('img-planetas').src = "assets/planet-uranus.svg"
 
