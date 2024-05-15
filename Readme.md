@@ -50,3 +50,8 @@ Se você deseja contribuir ou apenas visualizar o código-fonte, siga estas etap
 git clone https://github.com/2024-1S-SENAI-SP-FE/sirius-projeto-final.git
 ```
 Além disso, se preferir, você pode dar um fork do projeto para trabalhar em seu próprio repositório do GitHub.
+
+<h1 align="center"> ✨ Considerações ✨ </h1>
+
+O design do projeto foi inspirado pelo modelo disponível no Figma, acessível através deste [link](https://www.figma.com/design/Ii342qJMrXKCVkQ0nsxx8x/planets-fact-site). O design foi transcrito para HTML, CSS e JavaScript pelos contribuidores desse repositorio.
+
