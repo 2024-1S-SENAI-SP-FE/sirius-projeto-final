@@ -6,7 +6,7 @@ const MarsOverview = (event) => {
 
     document.getElementById("source-planetas").setAttribute("href", "https://en.wikipedia.org/wiki/Mars")
 
-    document.getElementById('img-planetas').src = "assets/planet-Mars.svg"
+    document.getElementById('img-planetas').src = "assets/planet-mars.svg"
 
     document.getElementById('img-geology').src = "none"
 
@@ -20,7 +20,7 @@ const MarsInternalStructure = (event) => {
 
     document.getElementById("source-planetas").setAttribute("href", "https://en.wikipedia.org/wiki/Mars#Internal_structure")
 
-    document.getElementById('img-planetas').src = "assets/planet-Mars-internal.svg"
+    document.getElementById('img-planetas').src = "assets/planet-mars-internal.svg"
 
     document.getElementById('img-geology').src = "none"
 }
