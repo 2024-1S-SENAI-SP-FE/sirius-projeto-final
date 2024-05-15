@@ -37,3 +37,33 @@ const NeptuneSurfaceGeology = (event) => {
 
     document.getElementById('img-geology').src = "assets/geology-neptune.png"
 }
+
+const ButtonStyle = () => {
+    const Buttons = document.querySelectorAll('.buttons > button ');
+
+    Buttons.forEach(button => {
+        button.addEventListener('mouseover', () => {
+            if (!button.matches(':focus')) {
+                button.style.boxShadow = 'inset auto 0 0 #38384f';
+                button.style.cursor = 'pointer';
+                button.style.background = '#474747';
+            }
+        });
+
+        button.addEventListener('mouseout', () => {
+            if (!button.matches(':focus')) {
+                button.style.boxShadow = 'none';
+                button.style.background = 'none';
+            }
+        });
+
+        button.addEventListener('focus', () => {
+            button.style.background = '#2D68F0';
+        });
+        button.addEventListener('blur', () => {
+            button.style.background = 'none';
+        });
+    });
+}
+
+window.addEventListener('DOMContentLoaded', ButtonStyle);
